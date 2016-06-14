@@ -39,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B55568B81D10D033000174F8 /* Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
 		B588870F1CF3A6AD00B25BCD /* Loop Trips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Trips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58887121CF3A6AD00B25BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58887171CF3A6AD00B25BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		F6E0F6681D1066B2005A13E5 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		F6E0F6691D1066BC005A13E5 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		F6E0F66B1D1066EE005A13E5 /* Keys.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.example.xcconfig; sourceTree = "<group>"; };
-		F6E0F66C1D1068D7005A13E5 /* Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				F6E0F6681D1066B2005A13E5 /* Debug.xcconfig */,
 				F6E0F6691D1066BC005A13E5 /* Release.xcconfig */,
 				F6E0F66B1D1066EE005A13E5 /* Keys.example.xcconfig */,
-				F6E0F66C1D1068D7005A13E5 /* Keys.xcconfig */,
+				B55568B81D10D033000174F8 /* Keys.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";
