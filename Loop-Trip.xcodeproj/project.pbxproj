@@ -42,7 +42,7 @@
 		B55568BA1D10D3D1000174F8 /* Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
 		B55568ED1D112EC6000174F8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		B55568EE1D112EC6000174F8 /* LoopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopSDK.framework; path = Carthage/Build/iOS/LoopSDK.framework; sourceTree = "<group>"; };
-		B588870F1CF3A6AD00B25BCD /* Loop-Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop-Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B588870F1CF3A6AD00B25BCD /* Loop Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58887121CF3A6AD00B25BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58887171CF3A6AD00B25BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B58887191CF3A6AD00B25BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		B58887101CF3A6AD00B25BCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B588870F1CF3A6AD00B25BCD /* Loop-Trip.app */,
+				B588870F1CF3A6AD00B25BCD /* Loop Trip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			);
 			name = "Loop-Trip";
 			productName = SimpleTest;
-			productReference = B588870F1CF3A6AD00B25BCD /* Loop-Trip.app */;
+			productReference = B588870F1CF3A6AD00B25BCD /* Loop Trip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ms.loop.Loop-Trip";
-				PRODUCT_NAME = "Loop-Trip";
+				PRODUCT_NAME = "Loop Trip";
 			};
 			name = Debug;
 		};
@@ -272,7 +272,7 @@
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ms.loop.Loop-Trip";
-				PRODUCT_NAME = "Loop-Trip";
+				PRODUCT_NAME = "Loop Trip";
 			};
 			name = Release;
 		};

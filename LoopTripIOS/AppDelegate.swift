@@ -22,8 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LoopSDKListener {
 		
 		if let path = NSBundle.mainBundle().pathForResource("Info", ofType: "plist"),
 			let dict = NSDictionary(contentsOfFile: path) {
-			appID = (dict["LOOP_APP_ID_PROP"] as? String)!
-			appToken = (dict["LOOP_APP_TOKEN_PROP"] as? String)!
+			
+			if let appID_plist = dict["LOOP_APP_ID_PROP"] as? String where appID_plist != "",
+				let appToken_plist = dict["LOOP_APP_TOKEN_PROP"] as? String where appToken_plist != "" {
+				appID = appID_plist;
+				appToken = appToken_plist;
+			}
 		}
 		
 		LoopSDK.initialize(self, appID: appID, token: appToken);
