@@ -17,23 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LoopSDKListener {
 	var loopInitialized = false;
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        var appID = ""
-        var appToken = ""
-        
-        var keys: NSDictionary?
-        
-        if let path = NSBundle.mainBundle().pathForResource("Info", ofType: "plist") {
-            keys = NSDictionary(contentsOfFile: path)
-        }
-        
-        if let dict = keys {
-            appID = (dict["LOOP_APP_ID_PROP"] as? String)!
-            appToken = (dict["LOOP_APP_TOKEN_PROP"] as? String)!
-        }
+		var appID = ""
+		var appToken = ""
+		
+		if let path = NSBundle.mainBundle().pathForResource("Info", ofType: "plist"),
+			let dict = NSDictionary(contentsOfFile: path) {
+			appID = (dict["LOOP_APP_ID_PROP"] as? String)!
+			appToken = (dict["LOOP_APP_TOKEN_PROP"] as? String)!
+		}
 		
 		LoopSDK.initialize(self, appID: appID, token: appToken);
-        LoopSDK.logManager.logEvent("Launch option \(launchOptions)")
-        return true
+		LoopSDK.logManager.logEvent("Launch option \(launchOptions)")
+		return true
 	}
 
 	func applicationWillResignActive(application: UIApplication) {
